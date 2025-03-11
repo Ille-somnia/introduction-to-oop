@@ -53,5 +53,6 @@ public class ProductBasket {
             products[i] = null;
         }
         count = 0;
+
     }
 }

@@ -28,10 +28,10 @@ public class App {
         System.out.println("Стоиимость корзины: " + basket.getTotalCosts());
 
         String searchProduct1 = "Cucumber";
-        System.out.println("Поиск продукта: " + searchProduct1 + " - " + basket.constainsProduct(searchProduct1));
+        System.out.println("Поиск продукта: " + searchProduct1 + basket.constainsProduct(searchProduct1));
 
         String searchProduct2 = "Melon";
-        System.out.println("Поиск продукта: " + searchProduct2 + " - " + basket.constainsProduct(searchProduct2));
+        System.out.println("Поиск продукта: " + searchProduct2 + basket.constainsProduct(searchProduct2));
 
         basket.clearBasket();
 
